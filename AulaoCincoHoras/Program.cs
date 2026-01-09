@@ -67,7 +67,7 @@
             idade = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine($"{nome}, vc tem {idade} anos!");
             */
-
+            /*
             int numeroQualquer = 20 + 20 - 80;
             int numeroMult = 10 * 90;
             float numeroDiv = 5 / 2;
@@ -82,6 +82,31 @@
             Console.WriteLine(numeroDiv);
 
             Console.WriteLine(teste);
+            */
+            /*
+            int a = 10;
+            int b = 20;
+            int c = 2;
+
+            // &&(E/AND)                    ||(OU/OR)
+            // true && true -> true         true || true -> true 
+            // false && false -> false      false || false -> false
+            // false && true -> false       false || true -> true
+            // true && false -> false       true || false -> true
+
+            if (a < b) // se
+            {
+                Console.WriteLine("É verdade");
+            }
+            else if(20 != 20 && a > c)
+            {
+                Console.WriteLine("Execultou else if");
+            }
+            else // se não
+            {
+                Console.WriteLine("É mentira");
+            }
+            */
         }
     }
 }
