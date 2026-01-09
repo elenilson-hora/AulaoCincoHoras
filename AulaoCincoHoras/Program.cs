@@ -14,7 +14,7 @@
             // 0 - 9 não no inicio
             // @ $ . não pode
             // _ 
-
+            /*
             int segundaGuerraMundial = 1942;
             string cor_favorita = "Verde";
             float velocidadeF1 = 294.48f;
@@ -40,6 +40,48 @@
 
             Console.WriteLine(velocidadeF1);
             Console.WriteLine(cor_favorita);
+            */
+            /*
+            var cor_favorita = "Verde";
+            var modeloDoProduto = 2323;
+            */
+            /*
+            dynamic cor_favorita = "Verde";
+            Console.WriteLine(cor_favorita);
+
+            cor_favorita = 213123123;
+            Console.WriteLine(cor_favorita);
+
+            cor_favorita = 321123.233f;
+            Console.WriteLine(cor_favorita);
+            */
+
+            //const float PI = 3.1415f;
+            /*
+            Console.WriteLine("Escreva seu nome: ");
+            string nome = Console.ReadLine();
+            Console.WriteLine("Seu nome é " + nome);
+
+            int idade;
+            Console.WriteLine($"Quantos anos você tem {nome}");
+            idade = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"{nome}, vc tem {idade} anos!");
+            */
+
+            int numeroQualquer = 20 + 20 - 80;
+            int numeroMult = 10 * 90;
+            float numeroDiv = 5 / 2;
+
+            int teste = (2 + 2) * 10;
+
+            // 6 / 2 => 3 // int
+            // 5 / 2 => 2.5 // decimal // float
+
+            Console.WriteLine(numeroQualquer);
+            Console.WriteLine(numeroMult);
+            Console.WriteLine(numeroDiv);
+
+            Console.WriteLine(teste);
         }
     }
 }
