@@ -107,6 +107,54 @@
                 Console.WriteLine("É mentira");
             }
             */
+            /*
+            Console.WriteLine("Digite sua idade: ");
+            int idade = int.Parse(Console.ReadLine()); // Olhar depois
+
+            if(idade >= 0 && idade <= 11)
+            {
+                Console.WriteLine("Você é uma criança! ");
+            }
+            else if (idade >= 12 && idade <= 18)
+            {
+                Console.WriteLine("Você é um adolecente! ");
+            }
+            else if (idade >= 19 && idade <= 60)
+            {
+                Console.WriteLine("Você é um adulto! ");
+            }
+            else
+            {
+                Console.WriteLine("Você é um idoso! ");
+            }
+            */
+            //ExibirMsg();
+            //GerarPreco(11, "Cebola");
+            //Console.WriteLine(Somar(1 , 2, 3));
+
+
+        }
+
+        static void ExibirMsg()
+        {
+            Console.WriteLine("Esse sistema é show de bola! ");
+            Console.WriteLine("Estou usando funções! ");
+            Console.WriteLine("Bem vindo! ");
+            Console.WriteLine("Guia do programador! ");
+        }
+
+        static void GerarPreco(int preco, string nome)
+        {
+            int precoABS = Math.Abs(preco); // Olhar depois
+            int valorFinal = precoABS + (2 * precoABS);
+            Console.WriteLine("Nome do produto: " + nome);
+            Console.WriteLine($" {nome} custa R$ {valorFinal}");
+        }
+
+        static int Somar(int a,int b, int c)
+        {
+            int resultadoFinal = a + b + c;
+            return resultadoFinal;
         }
     }
 }
