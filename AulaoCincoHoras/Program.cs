@@ -1,7 +1,13 @@
-﻿namespace AulaoCincoHoras
+﻿using System.Runtime.ConstrainedExecution;
+
+namespace AulaoCincoHoras
 {
     internal class Program
     {
+        enum Cor {Azul = 33, Verde, Amarelo, Vermelho };
+
+        enum Opcao { Criar = 1, Deletar, Editar, Listar, Atualizar};
+
         static void Main(string[] args)
         {
             // int - -156 como 32334
@@ -131,8 +137,93 @@
             //ExibirMsg();
             //GerarPreco(11, "Cebola");
             //Console.WriteLine(Somar(1 , 2, 3));
+            /*
+            string[] produtos = new string[5] {
+                "Sea of Thieves", // 0
+                "FiFA", // 1
+                "Minecraft", // 2
+                "Half-life", // 3
+                "Potal" // 4
+            };
 
+            int[] valores = {40, 50, 60, 70, 20 }; // Olhar depois
 
+            Console.WriteLine(produtos[1]);
+            produtos[1] = "FIFA 2021";
+            Console.WriteLine(produtos[1]);
+            */
+            /*
+            string cor = "Azul";
+
+            switch (cor)
+            {
+                case "Vermelho":
+                    Console.WriteLine("Sua cor favorita é Vermelho");
+                    break;
+                case "Amarelo":
+                    Console.WriteLine("Sua cor favorita é Amarelo");
+                    break;
+                case "Azul":
+                    Console.WriteLine("Sua cor favorita é Azul");
+                    break;
+                case "Rosa":
+                    Console.WriteLine("Sua cor favorita é Rosa");
+                    break;
+                default:
+                    Console.WriteLine("Sua cor favorita eu não sei");
+                    break;
+            }
+            */
+            /*
+            Cor corFavorita = Cor.Verde;
+            Cor corFavoritaDeCarla = Cor.Azul;
+
+            Console.WriteLine(corFavorita);
+            Console.WriteLine((int)corFavoritaDeCarla);
+            Console.WriteLine((Cor)34);
+            */
+            /*
+            Console.WriteLine("Selecione uma das opcões abaixo: ");
+            Console.WriteLine("1-Criar \n2-Deletar \n3-Editar \n4-Listar \n5-Atualizar");
+
+            int index = int.Parse(Console.ReadLine());
+
+            Opcao opcaoSelecionada = (Opcao)index;
+
+            switch (opcaoSelecionada)
+            {
+                case Opcao.Criar:
+                    Console.WriteLine("Você quer criar algo! ");
+                    break;
+                case Opcao.Deletar:
+                    Console.WriteLine("DELETE! DELETE IMEDIATAMENTE! ");
+                    break;
+                case Opcao.Editar:
+                    Console.WriteLine("Editar é muito bom! ");
+                    break;
+                case Opcao.Listar:
+                    Console.WriteLine("Abriu a lista! ");
+                    break;
+                case Opcao.Atualizar:
+                    Console.WriteLine("Atualização feita com sucesso! ");
+                    break;
+                default:
+                    Console.WriteLine("Não encontrei essa opção! ");
+                    break;
+            }
+            */
+
+            int contador = 0;
+
+            while (contador < 10)
+            {
+                Console.WriteLine(contador + 1);
+                Console.WriteLine("Roodando o while! ");
+                // contador = contador + 1;
+                //contador += 1;
+                contador++;
+            }
+            Console.WriteLine("FIM DA LINHA! ");
         }
 
         static void ExibirMsg()
