@@ -8,6 +8,8 @@ namespace AulaoCincoHoras
 
         enum Opcao { Criar = 1, Deletar, Editar, Listar, Atualizar};
 
+        static string meuNomeCompleto = "Elenilson da Hora";
+
         static void Main(string[] args)
         {
             // int - -156 como 32334
@@ -212,7 +214,7 @@ namespace AulaoCincoHoras
                     break;
             }
             */
-
+            /*
             int contador = 0;
 
             while (contador < 10)
@@ -224,6 +226,35 @@ namespace AulaoCincoHoras
                 contador++;
             }
             Console.WriteLine("FIM DA LINHA! ");
+            */
+            /*
+            int contador2 = 0;
+            do
+            {
+                Console.WriteLine("Do While!");
+                contador2++;
+            } while (contador2 < 10);
+            */
+
+            String[] palavras = { "Victor", "Lima", "Guia do prog", "Formação", "Node", "Curso de C#", "Udemy!" };
+            /*
+            foreach(string palavra in palavras) // Para cada palavra no array palavras, repita o bloco de código
+            {
+                Console.WriteLine(palavra);
+            }
+            */
+            /*
+            for( int contador = 0; contador < palavras.Length; contador++)
+            {
+                Console.WriteLine(contador);
+                Console.WriteLine(palavras[contador]);
+                //Console.WriteLine("FOR RODANDO!");
+            }
+            */
+
+            string meuNome = "Nino";
+            Console.WriteLine(meuNome);
+            Console.WriteLine(meuNomeCompleto);
         }
 
         static void ExibirMsg()
